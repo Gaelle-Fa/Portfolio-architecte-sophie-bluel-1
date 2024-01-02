@@ -185,4 +185,23 @@ footer nav ul {
 	justify-content: flex-end;
 	margin: 2em
 }
+.btnFilter{
+	border-radius: 14px;
+	padding: 5px 15px;
+	color:#1D6154;
+	margin: 5px;
+	border-color: #1D6154;
+	background-color: white;
+}
 
+.filtres {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.active {
+	background-color: #1D6154;
+	color:white;
+	border: none;
+}
